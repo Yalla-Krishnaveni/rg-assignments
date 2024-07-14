@@ -1,0 +1,19 @@
+#Static method
+public interface MathOperation {
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    static int multiply(int a, int b) {
+        return a * b;
+    }
+}
+
+#Default Method
+public interface Vehicle {
+    void start();
+
+    default void stop() {
+        System.out.println("Vehicle is stopping");
+    }
+}

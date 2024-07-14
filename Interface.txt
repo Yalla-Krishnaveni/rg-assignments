@@ -1,0 +1,14 @@
+#Runnable Interface
+public interface Runnable {
+    void run();
+}
+#Callable Interface
+public interface Callable<V> {
+    V call() throws Exception;
+}
+#Comparator Interface
+public interface Comparator<T> {
+    int compare(T o1, T o2);
+}
+
+
